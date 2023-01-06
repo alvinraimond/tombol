@@ -15,7 +15,7 @@ function kirim(){
       petunjuk.remove()
     tombol.style.display = 'block'
       setInterval(timer, 1000)
-}
+
   }
 }
     var waktu =  document.getElementById('waktu') 
