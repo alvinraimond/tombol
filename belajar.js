@@ -1,4 +1,3 @@
-
 var nama = document.getElementById('nama')
 var angka = document.getElementById('angka')
 var detik
@@ -16,10 +15,6 @@ function kirim(){
       petunjuk.remove()
     tombol.style.display = 'block'
       setInterval(timer, 1000)
-      document.attachEvent("onkeydown", my_onkeydown_handler);
-    
-    
-    
 }
   }
 }
